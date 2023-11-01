@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+}
+.container{
+	background-color:lightgray;
+	height:170px;
+}
+.settings{
+	font-family:Arial;
+	font-size:13px;
+	cursor:default;
+	top:10px;
+	left:10px;
+	position:absolute;
+}
+.circle{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	border:1px solid darkgray;
+	background-color:gray;
+	background-image:url(Images/picture.jpg);
+	top:40px;
+	left:60px;
+	position:absolute;
+}
+.name{
+	font-family:Arial;
+	font-weight:bolder;
+	font-size:xx-large;
+	left:190px;
+	top:50px;
+	position:absolute;
+	cursor:default;
+}
+.email{
+	color:gray;
+	font-family:Arial;
+	font-size:small;
+	left:192px;
+	top:85px;
+	position:absolute;
+	cursor:default;
+}
+.link{
+	top:105px;
+	position:absolute;
+	left:192px; 
+	font-family:Arial;
+	font-size:14px;
+	text-decoration:none;
+	color:blue;
+}
+.link:hover{
+	color:gray;
+}
+.link1{
+	text-decoration:none;
+	top:50px;
+	left:620px;
+	position:absolute;
+}
+.link1 >svg{
+	color:black;
+}
+#circle{
+	left:20px;
+	top:-17px;
+	position:relative;
+	height:17px;
+	width:17px;
+	border:1px solid lightgray;
+	border-radius:50%;
+	background-color:blue;
+}
+.onedrive{
+	font-family:Arial;
+	font-size:13px;
+	top:-10px;
+	left:-1px;
+	position:relative;
+	color:black;
+}
+.backupfiles{
+	left:0px;
+	font-family:Arial;
+	font-size:13px;
+	top:-5px;
+	position:relative;
+	color:gray;
+}
+.link2{
+	left:800px;
+	top:50px;
+	position:absolute;
+	text-decoration:none;
+}
+.bi-windows{
+	color:black;
+	left:3px;
+	top:3px;
+	position:relative;
+}
+.window-update{
+	font-family:Arial;
+	font-size:13px;
+	color:black;
+	top:15px;
+	position:relative;
+}
+.lastchecked{
+	font-family:Arial;
+	font-size:13px;
+	color:gray;
+	top:20px;
+	position:relative;
+	width:90px;
+}
+.link3{
+	left:970px;
+	top:50px;
+	position:absolute;
+	text-decoration:none;
+}
+.link3 >svg{
+	color:black;
+}
+#rwd{
+	border:1px solid lightgray;
+	border-radius:50%;
+	height:17px;
+	width:17px;
+	background-color:blue;
+	top:-11px;
+	left:18px;
+	position:relative;
+}
+.reward{
+	font-family:Arial;
+	font-size:13px;
+	color:black;
+	top:-7px;
+	position:relative;
+}
+.signin{
+	font-family:Arial;
+	font-size:13px;
+	color:gray;
+	position:relative;
+}
+.link4{
+	left:1100px;
+	top:50px;
+	position:absolute;
+	text-decoration:none;
+}
+.link4 >svg{
+	color:black;
+}
+#globe{
+	border:1px solid lightgray;
+	border-radius:50%;
+	height:17px;
+	width:17px;
+	background-color:blue;
+	top:-12px;
+	left:15px;
+	position:relative;
+}
+.webbrowsing{
+	font-family:Arial;
+	font-size:13px;
+	color:black;
+	top:-7px;
+	position:relative;
+}
+.restore{
+	font-family:Arial;
+	font-size:13px;
+	color:gray;
+	width:70px;
+
+}
+.x{
+	border:1px solid transparent;
+	width:42px;
+	height:30px;
+	left:1324px;
+	position:relative;
+}
+.x:hover{
+	border:1px solid transparent;
+	background-color:red;
+	color:white;
+}
+.x >svg{
+	left:7px;
+	position:relative;
+}
+.file{
+	border:1px solid transparent;
+	width:35px;
+	height:30px;
+	top:-30px;
+	left:1288px;
+	position:relative;
+}
+.file:hover{
+	border:1px solid transparent;
+	background-color:blue;
+	color:white;
+}
+.file >svg{
+	left:7px;
+	top:5px;
+	position:relative;
+}
+.dash{
+	border:1px solid transparent;
+	width:35px;
+	height:30px;
+	top:-60px;
+	left:1252px;
+	position:relative;
+}
+.dash:hover{
+	border:1px solid transparent;
+	background-color:blue;
+	color:white;
+}
+.dash >svg{
+	left:7px;
+	top:5px;
+	position:relative;
+}
+input[type="text"]{
+	border:2px solid lightgray;
+	width:24%;
+	height:30px;
+	top:30px;
+	left:500px;
+	position:relative;
+}
+input[type="text"]:hover{
+	border:2px solid gray;
+}
+#searchsvg{
+	top:207px;
+	left:810px;
+	position:absolute;
+}
+::placeholder{
+	left:10px;
+	position:relative;
+}
+.container1{
+	border:1px solid transparent;
+	height:400px;
+	width:100%;
+	top:235px;
+	position:absolute;
+	padding:25px;
+	display:grid;
+	grid-template-columns:repeat(5,1fr);
+	grid-template-rows:repeat(3, 1fr);
+	grid-column-gap:25px;
+	grid-row-gap:25px;
+}
+.box1{
+	border:2px solid transparent;
+	padding:10px;
+	text-decoration:none;
+}
+.box1:hover{
+	border:2px solid lightgray;
+}
+.box1 >svg{
+	color:blue;
+	top:10px;
+	position:relative;
+}
+.box1 >label{
+	left:20px;
+	position:relative;
+	font-size:13px;
+	font-family:Arial;
+	color:black;
+}
+.box1 >p{
+	top:5px;
+	left:55px;
+	position:relative;
+	width:170px;
+	color:gray;
+	font-family:Arial;
+	font-size:12px;
+}
